@@ -66,7 +66,7 @@ init
             	query@Database(q)(result);
 
                 //instead of a fixed i, there should be something like "result.size" condition
-            	for ( i = 0, i < 2, i++ ) {
+            	for ( i = 0, i < 3, i++ ) {
                 	println@Console(         "Service id: "+ result.row[i].service_id +
                     						 "\n"+
                     						 "Service context: "+ result.row[i].context +

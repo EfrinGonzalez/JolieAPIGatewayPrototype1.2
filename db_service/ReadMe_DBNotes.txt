@@ -29,7 +29,19 @@ values ('Catherine','Carlsberg','Beachland, 100 ODENSE', 'cath@email.com', '2234
 insert into customer(name, surname, address, email, mobile_phone, other_phone)
 values ('Amelie','Sang','Tykobgade, 100 KBN', 'amelie@email.com', '25646222', '09873754');
 
+-------------------------------------------
 
+CREATE TABLE product
+(
+product_id int NOT NULL AUTO_INCREMENT,
+name varchar(255) NOT NULL,
+code varchar(255) NOT NULL,
+owneer varchar(255) NOT NULL,
+description varchar(255),
+PRIMARY KEY (product_id)
+);
+
+-------------------------------------------
 CREATE TABLE users
 (
 user_id int NOT NULL AUTO_INCREMENT,
