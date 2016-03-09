@@ -1,9 +1,9 @@
-type Person:void {
+type Customer:void {
 	.email:string
 	.name:string
 }
 
-interface Persons {
+interface Customers {
 RequestResponse:
 	retrieveAll(void)(undefined),
 	create(undefined)(undefined),
@@ -17,5 +17,5 @@ RequestResponse:
 //Just in case
 /*interface MyInterface {
 RequestResponse:
-	sayHello( Person )( string )
+	sayHello( Customer )( string )
 }*/

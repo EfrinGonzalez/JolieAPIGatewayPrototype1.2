@@ -20,76 +20,28 @@
     <favorites_list name="JolieAPIGatewayPrototype1.2" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5733083">
-      <split-first>
-        <leaf>
-          <file leaf-file-name="gateway.ol" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/gateway.ol">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.55308217">
-                  <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="ReadMe_DBNotes.txt" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/db_service/ReadMe_DBNotes.txt">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="54" column="2" selection-start-line="54" selection-start-column="2" selection-end-line="54" selection-end-column="2" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="user_iface.iol" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/db_service/user_iface.iol">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="UserDB_crud.ol" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/db_service/UserDB_crud.ol">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="47" column="42" selection-start-line="47" selection-start-column="42" selection-end-line="47" selection-end-column="42" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="PersonDB_crud.ol" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/db_service/PersonDB_crud.ol">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.52397263">
-                  <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="person_iface.iol" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/db_service/person_iface.iol">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file leaf-file-name="gateway.ol" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gateway.ol">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CustomerDB_crud.ol" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/db_service/CustomerDB_crud.ol">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.40753424">
+              <caret line="14" column="28" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -103,11 +55,16 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/profileA_service/ProfileA_Adapter.ol" />
-        <option value="$PROJECT_DIR$/db_service/user_iface.iol" />
         <option value="$PROJECT_DIR$/db_service/ReadMe_DBNotes.txt" />
+        <option value="$PROJECT_DIR$/db_service/user_iface.iol" />
+        <option value="$PROJECT_DIR$/MonitoringTool/LeonardoWebServer/www/index.html" />
+        <option value="$PROJECT_DIR$/db_service/person_iface.iol" />
         <option value="$PROJECT_DIR$/db_service/PersonDB_crud.ol" />
-        <option value="$PROJECT_DIR$/db_service/UserDB_crud.ol" />
+        <option value="$PROJECT_DIR$/db_service/customer_iface.iol" />
         <option value="$PROJECT_DIR$/gateway.ol" />
+        <option value="$PROJECT_DIR$/MonitoringTool/Monitor.ol" />
+        <option value="$PROJECT_DIR$/db_service/UserDB_crud.ol" />
+        <option value="$PROJECT_DIR$/db_service/CustomerDB_crud.ol" />
       </list>
     </option>
   </component>
@@ -445,6 +402,9 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="975aa3c0-a680-4071-bd0e-f422d74ccf0d" name="Default" comment="" />
@@ -481,6 +441,14 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -489,30 +457,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/db_service/person_iface.iol">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/profileA_service/ProfileA_Adapter.ol">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.28082192">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db_service/user_iface.iol">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db_service/ReadMe_DBNotes.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -521,26 +465,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db_service/UserDB_crud.ol">
+    <entry file="file://$PROJECT_DIR$/MonitoringTool/LeonardoWebServer/www/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="47" column="42" selection-start-line="47" selection-start-column="42" selection-end-line="47" selection-end-column="42" />
+        <state vertical-scroll-proportion="-7.730769">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db_service/PersonDB_crud.ol">
+    <entry file="file://$PROJECT_DIR$/MonitoringTool/LeonardoWebServer/www/index2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db_service/customer_iface.iol">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db_service/user_iface.iol">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.52397263">
-          <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
+          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db_service/UserDB_crud.ol">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.827027">
+          <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MonitoringTool/Monitor.ol">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9606164">
+          <caret line="33" column="46" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gateway.ol">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.55308217">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db_service/CustomerDB_crud.ol">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.40753424">
+          <caret line="14" column="28" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="28" />
           <folding />
         </state>
       </provider>

@@ -20,7 +20,7 @@ RequestResponse:
 	
 OneWay: 
 	start(void),
-	stop(OpMessage)
+	stop(void)
 }
 
 

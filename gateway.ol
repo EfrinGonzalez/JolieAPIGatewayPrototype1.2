@@ -1,7 +1,7 @@
 include "console.iol"
 include "database.iol"
 include "time.iol"
-include "../db_service/person_iface.iol"
+include "../db_service/customer_iface.iol"
 include "/db_service/user_iface.iol"
 include "/db_service/DBConnector_iface.iol"
 include "runtime.iol"
@@ -28,7 +28,7 @@ outputPort Auth_Service{
 outputPort Monitor {
 	Location: "socket://localhost:8005/"
 	//Protocol: http { .format = "json" }
-	Interfaces: Persons
+	Interfaces: Customers
 }
 
 //Note: the gateway runs the leonardo server to show what it is 

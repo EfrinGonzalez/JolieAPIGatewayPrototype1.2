@@ -2,7 +2,7 @@ include "console.iol"
 include "runtime.iol"
 include "database.iol"
 include "string_utils.iol"
-include "person_iface.iol"
+include "customer_iface.iol"
 include "math.iol"
 include "../authenticator.iol"
 include "/db_service/DBConnector_iface.iol"
@@ -33,6 +33,7 @@ outputPort DB_Connector {
 
 init
 {
+    //user.email=="test";
 	connectionConfigInfo@DB_Connector()(connectionInfo);
 	connect@Database(connectionInfo)()
 
@@ -40,6 +41,13 @@ init
 
 main
 {
+
+
+    /*auth@Auth_Service(user)(response){
+         if (response == false ) throw(a_fault)
+    };
+*/
+  //  provide
 	//Example: http://localhost:8002/retrieveAll
 	[ retrieveAll()(response) {
 		query@Database(
@@ -110,22 +118,7 @@ main
 			}
 		)(response.status)
 	} ]
-	
-	// shutdown DB: http://localhost:8002/shutdown
-	/*[shutdown(request)(response){
-		update@Database( "delete from service_registry where service_id=:id"{
-			.id = service_id
-		}
-		
-		)( sqlResponse);
-		response.values -> sqlResponse.row
-		//exit
-		//getLocalLocation@Runtime()(ProfileA);
-		//callExit@Runtime(ProfileA)()
-		
-		
-	}]*/
-	
- 
-    
+
+ /*   until
+    [stop()]*/
 }
