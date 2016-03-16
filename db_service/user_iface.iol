@@ -10,12 +10,13 @@ type OpMessage: void{
 
 interface Users {
 RequestResponse:
-	retrieveAll(void)(undefined),
+	retrieveAll(undefined)(undefined),
 	create(undefined)(undefined),
 	retrieve(undefined)(undefined),
 	update(undefined)(undefined),
 	delete(undefined)(undefined),
 	twice( int )( int ),
+	login(undefined)(undefined),
 	auth(User)(bool)
 	
 OneWay: 

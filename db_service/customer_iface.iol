@@ -5,7 +5,7 @@ type Customer:void {
 
 interface Customers {
 RequestResponse:
-	retrieveAll(void)(undefined),
+	retrieveAll(undefined)(undefined),
 	create(undefined)(undefined),
 	retrieve(undefined)(undefined),
 	update(undefined)(undefined),

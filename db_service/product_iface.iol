@@ -1,7 +1,7 @@
 
 interface Products {
 RequestResponse:
-	retrieveAll(void)(undefined),
+	retrieveAll(undefined)(undefined),
 	create(undefined)(undefined),
 	retrieve(undefined)(undefined),
 	update(undefined)(undefined),

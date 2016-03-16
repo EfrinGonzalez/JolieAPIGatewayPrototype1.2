@@ -27,16 +27,13 @@ outputPort Auth_Service{
 //Note: The gateway runs the monitoring service
 outputPort Monitor {
 	Location: "socket://localhost:8005/"
-	//Protocol: http { .format = "json" }
 	Interfaces: Customers
 }
 
 //Note: the gateway runs the leonardo server to show what it is 
 //in the monitoring service.
 outputPort HTTPInput {
-	Location: Location_Leonardo
-	//Protocol: http { .format = "json" }
-	//Interfaces: HTTPInterface
+	Location: Location_Leonardo //global variable
 }
 
 
@@ -79,7 +76,6 @@ init
                     						 "\n"+
                     						 "Service Location: "+ result.row[i].location)();
                     	embedInfo.type = "Jolie";
-                        //keepRunning = true;
                         embedInfo.filepath = result.row[i].filepath;
                         loadEmbeddedService@Runtime( embedInfo )( result.row[i].context.location )
                 }

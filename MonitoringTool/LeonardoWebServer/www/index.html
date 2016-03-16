@@ -1,15 +1,28 @@
 <html>
-<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<head><script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script></head>
+
 <body>
 
 <div ng-app="myApp" ng-controller="customersCtrl"> 
 <h1>Monitoring tool</h1>
 <h2>Up running services</h2>
 <ul>
+
+
+
+
+
+
+
+<h3>Id | Context | InputPort | Filepath | Location</h3>
+
+
+
   <li ng-repeat="x in values">
-    {{ x.service_id + ', ' + 
-	   x.context + ', ' +
-	   x.input_port + ', ' +
+    {{ x.service_id + ' | ' +
+	   x.context + '    | ' +
+	   x.input_port + ' | ' +
+       x.filepath + '   | ' +
 	   x.location}}
   </li>
 </ul>
